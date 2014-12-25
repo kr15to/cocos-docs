@@ -20,7 +20,7 @@ Why would you want to choose Cocos2d-JS over other available game engines?
 
 With the rise of Android in 2010, the Cocos2d-x team branched Cocos2d-x from Cocos2d-iphone not only to focuses on Android platform, but also to target cross-platform support as well. In 2011, Google sponsored the Cocos2d-x team to port Cocos2d-x to Cocos2d-html5, which focuses on HTML5-ready browsers. 
 
-The Cocos2d-html5 project was started January 29, 2012. The first stable release, version v2.0, based on Cocos2d-x v2.0 was released in August of 2012. Meanwhile, Zygna was helping Cocos2d-x team to develop the Cocos2d-x JSB solution to extend Cocos2d-html5's native platform ability. The first coordinated release of the Cocos2d family was released on December 4, 2012. Since then, games that are developed based on Cocos2d-html5 can be run on web and native platforms. 
+The Cocos2d-html5 project was started January 29, 2012. The first stable release, version v2.0, based on Cocos2d-x v2.0 was released in August of 2012. Meanwhile, Zynga was helping Cocos2d-x team to develop the Cocos2d-x JSB solution to extend Cocos2d-html5's native platform ability. The first coordinated release of the Cocos2d family was released on December 4, 2012. Since then, games that are developed based on Cocos2d-html5 can be run on web and native platforms. 
 
 Cocos2d-html5 and Cocos2d-x JSB were combined and upgraded to Cocos2d-JS in March of 2014 and the first stable version, v3.0, was released on September 12, 2014. In Cocos2d-JS v3.0, we reinvented the workflow for all platforms, providing a consistent development experience for whichever platform you want to distribute to no matter whether web and/or native. Cocos2d-JS v3.0 is super powerful and comes with a lot of cool new features such as: Editors Support, Assets Manager, Object Pool, JS to Objective-C/JAVA reflection, etc.
 
@@ -35,10 +35,14 @@ Cocos2d-JS supports running game code as native application via Cocos2d-x JSB wi
 Cocos2d-x JSB for C/C++ is the wrapper code that sits between the native code and the JavaScript code. JSB enables calls to the native code using JavaScript and vice-versa.
 
 JavaScript code is interpreted by SpiderMonkey, Mozilla’s JavaScript virtual machine (VM). The JavaScript VM is extended by JSB to support Cocos2d-x types, structures, and objects.
-SpiderMonkey is Mozilla's open source JavaScript engine written in C/C++, and it can be linked into any C++ program, not just web browsers.
-C++ code accesses SpiderMonkey via the JSAPI. The JSAPI provides functions for setting up the JavaScript runtime, compiling and executing scripts, creating and examining JavaScript data structures, handling errors, enabling security checks, and debugging scripts. This technology is used for rapid game development and game prototyping.
 
-
+SpiderMonkey is Mozilla's open source JavaScript engine written in C/C++, and it can be linked into any C++ program, not just web browsers.
+
+
+C++ code accesses SpiderMonkey via the JSAPI. The JSAPI provides functions for setting up the JavaScript runtime, compiling and executing scripts, creating and examining JavaScript data structures, handling errors, enabling security checks, and debugging scripts. This technology is used for rapid game development and game prototyping.
+
+
+
 ### 1.1.3 Position in Cocos2d family
 
 Compared to other products in the Cocos2d branch, Cocos2d-JS is focusses on full cross-platform support by allowing the development of web games and native games.
